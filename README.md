@@ -55,11 +55,7 @@ The complete workflow includes:
 
 ## 📂 Project Structure
 
-```text
 Sentiment-analysis-/
-│
-├── data/
-│   └── IMDB Dataset.csv
 │
 ├── models/
 │   ├── sentiment_model.pkl
@@ -72,3 +68,15 @@ Sentiment-analysis-/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+## 📊 Dataset
+
+The project was trained using the IMDB Movie Reviews dataset.
+
+The dataset contains labeled movie reviews classified as:
+
+- 😊 Positive
+- 😞 Negative
+
+The dataset is not included in this repository because of its large file size.
+
+The trained model and TF-IDF vectorizer are included in the `models/` directory, allowing the application to make predictions without retraining.
